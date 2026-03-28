@@ -1,0 +1,9 @@
+numpy
+pandas
+scikit-learn
+jupyter
+matplotlib
+lightgbm
+xgboost
+joblib
+torch
