@@ -92,13 +92,6 @@ CI runs the same command on Python 3.12 (`.github/workflows/ci.yml`).
 4. Run `generate_submissions` / Stage-2 export paths in `src/submission.py` as needed for Kaggle.
 5. Copy `src/models/*` to **march-mania-backend** for deployment.
 
-## Related repositories
-
-| Repo | Role |
-| ---- | ---- |
-| **march-mania-backend** | Serves trained models via FastAPI |
-| **march-mania-web** | Next.js UI calling the backend |
-
 ## Contributing
 
 Contributions are welcome: bug reports, documentation improvements, tests, and focused feature or modeling PRs. Please keep changes scoped, run `python -m pytest tests -q`, and match existing style and naming. If you add behavior, add or extend tests. Open an issue first for large design changes so we can align on approach.
